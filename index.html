@@ -10,15 +10,44 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     
     <!--- CSS -->
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/aluno.css">
     
     <!--- JS -->
     <script defer src="js/index.js"></script>
     
     <!--- TITLE -->
-    <title>Document</title>
+    <title>Aluno</title>
 </head>
 <body>
-    
+    <header>
+        <a  href="#"><img class="logo" src="./assets/img/logos/svg/LogoNivelamentoWhite.svg" alt="Logo do Nivelamento"/></a>
+        <dev class="header-txt">
+            <h1>Aluno</h1>
+        </dev>
+        <!-- <nav class="nav">
+            <button class="hamburguer"></button>
+            <ul class="nav-list">
+                <li><a href="${urls}index.html">Página inicial</a></li>
+                <li><a href="${urls}pages/programacao/programacao.html">Programação</a></li>
+                <li><a href="${urls}pages/eixos/eixos.html">Eixos</a></li>
+                <li><a href="${urls}pages/organizacao/organizacao.html">Organização</a></li>
+                <li><a href="${urls}pages/salas/salas.html">Salas</a></li>
+            </ul>
+        </nav>     -->
+    </header>
+    <dev class="container">
+        <dev class="curso">PC</dev>
+        <h1 class="title">A frequência</h1>
+        <dev class="forms-wrapper">
+            <form action="" method="post">
+                <input itemid="nome" type="text" name="nome" id="nome" placeholder="Nome Completo" required>
+                <input itemid="matricula" type="text" name="matricula" id="matricula" placeholder="Matricula" minlength="12" maxlength="12" pattern="[0-9]{12}"  title="Insira uma matricula válida" required >
+                <input id="submit" type="submit" value="Enviar">
+            </form>
+
+        </dev>
+    </dev>
 </body>
+    
 </html>

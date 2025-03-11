@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Root variables */
+:root{
+    --primery-color: #006b8f;
+    --secondary-color: #fff;
+    --black-color:#000;
+}
+
+/* HTML tags */
+
+body{
+
+}
+
+header{
+    background-color: var(--primery-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0.5rem 1.5rem;
+}
+
+/* ids */
+
+/* classes */
+.logo{
+    width: 50px;
+}
+
+.text-white{
+    color: var(--secondary-color);
+}
+
+.text-black{
+    color: var(--black-color);
+}
