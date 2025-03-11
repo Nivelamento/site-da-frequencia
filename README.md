@@ -1,2 +1,2 @@
-# Siite da Frequência
+# Site da Frequência
 
